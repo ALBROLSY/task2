@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    width: 800px;
+    height: 650px;
+    background: #d5d4d4;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: -30px;
+    
+
+    
+    
+    
+}
+.container>div>div{
+    width: 100px;
+    height: 100px;
+    background: rgb(86, 172, 243);
+    display: inline-flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    
+
+}
+.container>.two{
+    
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+    
+}
+.container>.one{
+    margin-top: 50px;
+    margin-bottom: 150px;
+    
+
+}
+.container>.one>div,.container>.two>div{
+    margin-left: 25px;
+}
